@@ -1,0 +1,130 @@
+/* Lg, Wide Screens */
+@media only screen and (max-width: 1200px) {
+    .top-links {
+		display: none;
+		background-color: #585d61;
+		margin-top: 15px;
+		padding: 14px;
+		position: absolute;
+		vertical-align: middle;
+		width: 100%;
+	}
+}
+
+/* Md, Desktops */
+@media only screen and (max-width: 992px) {
+    .sell_right .button {
+    	margin: 15px auto;
+    	float: none;
+    	max-width: 150px;
+    }
+
+    .sell_descr {
+    	text-align: center;
+    }
+
+	.maian_mnu ul {
+        display: none;
+        position: absolute;
+	    background-color: #DE5E4D;
+	    width: 100%;
+	}
+
+	.maian_mnu ul li {
+		display: block;
+	}
+
+	.top-links {
+		display: none;
+		background-color: #585d61;
+		margin-top: 15px;
+		padding: 14px;
+		position: absolute;
+		vertical-align: middle;
+		width: 100%;
+	}
+}
+
+/* Sm, Tablets */
+@media only screen and (max-width: 768px) {
+    .top-links {
+		display: none;
+		background-color: #585d61;
+		margin-top: 15px;
+		padding: 14px;
+		position: absolute;
+		vertical-align: middle;
+		width: 100%;
+	}
+
+	.blog_item {
+		padding: 0 10px 0;
+	}
+
+	.row {
+		padding: 0 10px;
+	}
+}
+
+/* Xs, Phones */
+@media only screen and (max-width: 480px) {
+    .top_contacts {
+    	
+    	font-size: 18px;
+    }
+
+    .Zag>.p {
+    	font-size: 20px;
+    }
+
+    #headerwrap h1, h2 {
+    	float: center;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+	.top-links {
+		display: inline-block !important;
+		margin-top: 7px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.maian_mnu ul {
+		display: block !important;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+    .par {
+    	padding: 0 7px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 767px) {
+    .top-links {
+		display: none;
+		background-color: #585d61;
+		margin-top: 15px;
+		padding: 14px;
+		position: absolute;
+		vertical-align: middle;
+		width: 100%;
+	}
+
+	.blog_item {
+		padding: 0 10px 0;
+	}
+
+	.row {
+		padding: 0 10px;
+	}
+}

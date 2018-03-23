@@ -1,0 +1,302 @@
+
+
+body {
+	background-color: #FAFAFA;
+	height: 100%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato";
+	font-weight: 300;
+	color #333;
+}
+
+#headerwrap {
+	background: url(../images/test.jpg) no-repeat center top;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 50px;
+	width: 100%;
+	background-size: 100%;
+	box-shadow: 
+	0 7px 16px 3px black,
+	30px 0 30px -30px #000 inset,
+	 -30px 0 30px -30px #000 inset;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-top: 60px;
+	color: white;
+	font-size: 50px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+	color: white;
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+
+.f i {
+	color: #bdbdbd;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.f i:hover {
+	color: #FF7878;
+}
+
+.navbar-inverse {
+	background-color: #43484C;
+	border: none;
+	padding: 15px 0px;
+	color: #fff;
+}
+
+.navbar-inverse a {
+	color: #fff;
+}
+
+.auth-button,
+.main_mnu_button {
+	border: medium none;
+	background: transparent;
+	font-size: 17px;
+}
+
+.auth-button {
+	margin-top: 5px;
+}
+
+.main_mnu_button {
+	color: #fff;
+	padding: 11px 15px 0;
+	font-size: 20px;
+}
+
+.top-links {
+	z-index: 10;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 15px;
+}
+
+.top-links a:hover {
+	text-decoration: none;
+	color: #E1E1E1;
+}
+
+.soc_buttons {
+	float: right;
+}
+
+.soc_buttons> a {
+	font-size: 26px;
+	color: #EEE;
+}
+
+.soc_buttons> a:hover {
+	color: #F28577;
+}
+
+.maian_mnu {
+	background-color: #F26754;
+	border-color: #DE4733;
+	color: #fff;
+	margin-top: 110px;
+	margin-bottom: 20px;
+}
+
+.maian_mnu a {
+	color: #fff;
+	padding: 15px;
+	display: block;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	text-decoration: none;
+}
+
+.maian_mnu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	text-transform: uppercase;
+}
+
+.top_contacts {
+	float: right;
+	font-size: 32px;
+	padding: 0 15px;
+	background-color: #DE5E4D;
+	line-height: 51px;
+}
+
+.maian_mnu ul li {
+	display: inline-block;
+}
+
+.maian_mnu ul li .active {
+	background-color: #DE5E4D;
+}
+
+.maian_mnu a:hover {
+	background-color: #DE5E4D;
+}
+
+.fa-bars {
+	padding-bottom: 14.5px;
+}
+
+.nav-my {
+	background-color: #F28577;
+}
+
+h1, .p {
+	color: #fff;
+	text-align: center;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-family: "GardensCRegular";
+	letter-spacing: 1px;
+}
+
+section.order {
+	background-color: #eee;
+	padding: 25px 0;
+	z-index: 0;
+	box-shadow: 
+	inset 0 7px 16px -7px black,
+	0 4px 16px -7px black;
+}
+
+.sell_descr {
+	font-size: 22px;
+	padding-top: 5px;
+}
+
+.button {
+	display: block;
+	border: medium none;
+	background-color: #FF8C7D;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #FF9B8E;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.button:active {
+	background-color: #E78173;
+}
+
+.sell_right .button {
+	float: right;
+}
+
+.hidden {
+	display: none;
+}
+
+.pop_form .button {
+	margin: 20px auto 0;
+}
+
+.pop_form h3 {
+	margin: 10px auto 15px;
+	text-align: center;
+	font-weight: normal;
+	font-family: "AlexanderRegular";
+	text-transform: uppercase;
+}
+
+.blog_item img {
+	max-width: 90%;
+}
+
+.gg {
+	text-transform: uppercase;
+	font-family: "Lato";
+	margin-bottom: 10px;
+}
+
+.par {
+	padding: 7px 0;
+	font-family: "GardensCRegular";
+	font-size: 15px;
+}
+
+.right_aside {
+	padding: 15px 20px;
+	border-radius: 5px;
+	background-color: #eee;
+	margin-top: 30px;
+}
+
+.right_aside li {
+	list-style: none;
+}
+
+.bs-docs-footer {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #D5D5D5;
+	text-align:center;
+	background-color:#EE756B;
+	box-shadow: 0 0px 15px 2px black;
+    margin-bottom: 0 !important;
+}
+
+.bs-docs-footer a {
+	color: #fff;
+}
+
+.bs-docs-footer a:hover {
+	color: #DEDEDE;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+
+.blockquote {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 23px;
+}
+
+.pop_form input {
+	position: relative;
+	z-index: 1;
+	display: block;
+	margin: 1em;
+	width: calc(100% - 2em);
+	vertical-align: top;
+}
+
+q {
+	quotes: "\201c" "\201d";
+}
